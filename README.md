@@ -8,6 +8,9 @@
 ## My Blog
 
 Think ML - https://goodboyanush.github.io/
+Blog 1 - https://medium.com/@abhyudayj.isme1820/introduction-to-machine-learning-4effc8adfff2
+Blog 2 - https://medium.com/@abhyudayj.isme1820/linear-regression-vs-logistic-regression-81a84d937f2d
+Blog 3 - https://medium.com/@abhyudayj.isme1820/neural-networks-42b34deacc1b
 
 ## Course Overview
 
