@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Downloaded and loaded Japanese Vowels into Jupiter Notebook\
+\
+Loaded the CSV file to understand the columns and how they are related\
+\
+Later using Describe function analysed columns \'93frame\'94 and \'93utterance\'94 through values such as max, min etc\
+\
+Created dummy variables \'93frame_group\'94 and \'93utterance_group\'94 for easy and more meaningful analysis\
+\
+Then performed various plots and graphs:\
+\
+Crosstab dummy variables utterance_group and frame_group with speaker and found that speaker 3 is active in all utterance groups while all speakers are not active in frame group >25\
+\
+Catplot showed that lot of outliers exist in frame group 21-25 vs speaker while >25 had one outlier but both categories had very less contributions\
+\
+Catplot for speaker vs utterance group showed not any out liars but less contributions for 51-70 and 71-90.\
+\
+A barplot for all 3 variables (speaker, frame_group and utterance_group) showed that most of the distribution is at utterance_group=11-30 followed by <=10 while 31-50 have very moderate distribution. For other two groups (51-70 and 71-90) only speaker 3 has influence\
+\
+Barplot showed same information with utterance group while it showed distribution in an ascending order for frame_group with maximum influence at <=5, 6-10 followed by 11-15\
+\
+Attempted a scatterplot with she variables but could not due to dummy variables being string so did a scatter plot for original variables (speaker, frame, utterance) and got a very vague graph and not much can be interpreted.\
+}
